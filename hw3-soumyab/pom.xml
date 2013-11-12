@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f13.hw3</groupId>
 	<artifactId>hw3-soumyab</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<repositories>
 		<repository>
 			<id>oaqa</id>
@@ -87,5 +87,6 @@
 	<scm>
 		<connection>scm:git:git@github.com:soumya-batra/hw3-soumyab.git</connection>
 		<developerConnection>scm:git:git@github.com:soumya-batra/hw3-soumyab.git</developerConnection>
-	</scm>
+	  <tag>hw3-soumyab-0.0.1</tag>
+  </scm>
 </project>
