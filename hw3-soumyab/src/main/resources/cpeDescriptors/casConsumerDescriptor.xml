@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<casConsumerDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <implementationName>cpeFiles.CASEvaluator</implementationName>
+  <processingResourceMetaData>
+    <name>casConsumerDescriptor</name>
+    <description>The CAS Consumer that takes document from the Collection Reader as input, passes it to the CAS and runs the aggregated analysis engine resulting in Questions, Answers, Tokens, NGrams and AnswerScores as the final output</description>
+    <version>1.0</version>
+    <vendor>Soumya Batra</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>OutputDirectory</name>
+        <description>Directory where the XMI files will be written</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>OutputDirectory</name>
+        <value>
+          <string>src/main/resources/outputData</string>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="../analysisEngineDescriptors/deiis_types.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </processingResourceMetaData>
+  <resourceManagerConfiguration/>
+</casConsumerDescription>

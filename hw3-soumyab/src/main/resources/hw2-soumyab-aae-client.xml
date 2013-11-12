@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customResourceSpecifier xmlns="http://uima.apache.org/resourceSpecifier">
+  <resourceClassName>
+    org.apache.uima.aae.jms_adapter.JmsAnalysisEngineServiceAdapter
+  </resourceClassName>
+  <parameters>
+    <parameter name="brokerURL"
+               value="tcp://localhost:61616"/>
+    <parameter name="endpoint"
+               value="QAInputQueue"/>
+    <parameter name="timeout"
+               value="100000"/>
+    <parameter name="getmetatimeout"
+               value="100000"/>
+    <parameter name="cpctimeout"
+               value="100000"/>
+  </parameters>
+</customResourceSpecifier>

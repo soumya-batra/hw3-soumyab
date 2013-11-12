@@ -1,0 +1,11 @@
+Question: Booth shot Lincoln?
+
++ 2.00 Booth shot Lincoln.
+- 1.17 Lincoln shot Booth.
++ 1.11 Booth assassinated Lincoln.
+- 1.11 Lincoln assassinated Booth.
++ 1.10 Lincoln was shot by Booth.
+- 1.10 Booth was shot by Lincoln.
++ 1.07 Lincoln was assassinated by Booth.
+- 1.07 Booth was assassinated by Lincoln.
+Precision at 4: 0.50

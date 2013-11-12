@@ -1,0 +1,8 @@
+Question: John loves Mary?
+
++ 2.00 John loves Mary.
++ 1.28 John loves Mary with all his heart.
+- 0.22 Mary doesn't love John.
++ 0.14 Mary is dearly loved by John.
+- -0.06 John doesn't love Mary.
+Precision at 3: 0.67
